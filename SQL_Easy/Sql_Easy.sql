@@ -23,3 +23,6 @@ SELECT * FROM friends_of_pickles WHERE height_cm < 45 OR species = 'dog';
 
 --IN
 SELECT * FROM friends_of_pickles WHERE species NOT IN ('cat', 'dog');
+
+--DISTINCT
+SELECT DISTINCT species FROM friends_of_pickles WHERE height_cm > 50;
